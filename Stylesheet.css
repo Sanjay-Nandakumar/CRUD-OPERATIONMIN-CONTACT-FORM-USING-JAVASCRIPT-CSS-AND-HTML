@@ -1,0 +1,759 @@
+#snackbar {
+
+    visibility: hidden;
+    
+    min-width: 250px;
+    
+    margin-left: -125px;
+    
+    background-color: #333;
+    
+    color: #fff;
+    
+    text-align: center;
+    
+    border-radius: 2px;
+    
+    padding: 16px;
+    
+    position: fixed;
+    
+    z-index: 1;
+    
+    left: 50%;
+    
+    bottom: 30px;
+    
+    font-size: 17px;
+    
+    }
+    
+    
+    
+    #snackbar.show {
+    
+    visibility: visible;
+    
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    
+    }
+    
+    
+    
+    @-webkit-keyframes fadein {
+    
+    from {bottom: 0; opacity: 0;} 
+    
+    to {bottom: 30px; opacity: 1;}
+    
+    }
+    
+    
+    
+    @keyframes fadein {
+    
+    from {bottom: 0; opacity: 0;}
+    
+    to {bottom: 30px; opacity: 1;}
+    
+    }
+    
+    
+    
+    @-webkit-keyframes fadeout {
+    
+    from {bottom: 30px; opacity: 1;} 
+    
+    to {bottom: 0; opacity: 0;}
+    
+    }
+    
+    
+    
+    @keyframes fadeout {
+    
+    from {bottom: 30px; opacity: 1;}
+    
+    to {bottom: 0; opacity: 0;}
+    
+    }
+    
+    
+    
+    #snackbar2 {
+    
+    visibility: hidden;
+    
+    min-width: 250px;
+    
+    margin-left: -125px;
+    
+    background-color: #333;
+    
+    color: #fff;
+    
+    text-align: center;
+    
+    border-radius: 2px;
+    
+    padding: 16px;
+    
+    position: fixed;
+    
+    z-index: 1;
+    
+    left: 50%;
+    
+    bottom: 30px;
+    
+    font-size: 17px;
+    
+    }
+    
+    
+    
+    #snackbar2.show {
+    
+    visibility: visible;
+    
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    
+    }
+    
+    
+    
+    @-webkit-keyframes fadein {
+    
+    from {bottom: 0; opacity: 0;} 
+    
+    to {bottom: 30px; opacity: 1;}
+    
+    }
+    
+    
+    
+    @keyframes fadein {
+    
+    from {bottom: 0; opacity: 0;}
+    
+    to {bottom: 30px; opacity: 1;}
+    
+    }
+    
+    
+    
+    @-webkit-keyframes fadeout {
+    
+    from {bottom: 30px; opacity: 1;} 
+    
+    to {bottom: 0; opacity: 0;}
+    
+    }
+    
+    
+    
+    @keyframes fadeout {
+    
+    from {bottom: 30px; opacity: 1;}
+    
+    to {bottom: 0; opacity: 0;}
+    
+    }
+    
+    
+    #close-image{
+    
+    width :5px;
+    
+    
+    
+    }
+    
+    
+    
+    #snackbar3 {
+    
+    visibility: hidden;
+    
+    min-width: 250px;
+    
+    margin-left: -125px;
+    
+    background-color: #333;
+    
+    color: #fff;
+    
+    text-align: center;
+    
+    border-radius: 2px;
+    
+    padding: 16px;
+    
+    position: fixed;
+    
+    z-index: 1;
+    
+    left: 50%;
+    
+    bottom: 30px;
+    
+    font-size: 17px;
+    
+    }
+    
+    
+    
+    #snackbar3.show {
+    
+    visibility: visible;
+    
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    
+    }
+    
+    
+    
+    @-webkit-keyframes fadein {
+    
+    from {bottom: 0; opacity: 0;} 
+    
+    to {bottom: 30px; opacity: 1;}
+    
+    }
+    
+    
+    
+    @keyframes fadein {
+    
+    from {bottom: 0; opacity: 0;}
+    
+    to {bottom: 30px; opacity: 1;}
+    
+    }
+    
+    
+    
+    @-webkit-keyframes fadeout {
+    
+    from {bottom: 30px; opacity: 1;} 
+    
+    to {bottom: 0; opacity: 0;}
+    
+    }
+    
+    
+    
+    @keyframes fadeout {
+    
+    from {bottom: 30px; opacity: 1;}
+    
+    to {bottom: 0; opacity: 0;}
+    
+    }
+    
+    
+    h1{
+    
+    color: black;;
+    
+    text-align: center;
+    
+    font-family: Helvetica;
+    
+    /*background-color: lightblue*/
+    
+    background-image: url("linear-gradient.png");
+    
+    
+    
+    }
+    
+    
+    
+    body {
+    
+    /*background-image: url("paper.jpg");*/
+    
+    background-color: #FFFFCC  ;
+    
+    height: 100%; 
+    
+    background-position: center;
+    
+    background-repeat: no-repeat;
+    
+    background-size: cover;
+    
+    }
+    
+    table 
+    
+    {
+    
+    width: 190%;
+    
+    font: 17px Calibri;
+    
+    }
+    
+    table, th, td 
+    
+    {
+    
+    border: solid 1px #DDD;
+    
+    border-width: 5px;
+    
+    
+    
+    border-collapse: collapse;
+    
+    padding: 2px 3px;
+    
+    text-align: center;
+    
+    }
+    
+    
+    input[type='button'] 
+    
+    {
+    
+    font: 15px Calibri;
+    
+    cursor: pointer;
+    
+    border: none;
+    
+    color: #FFF;
+    
+    }
+    
+    
+    input[type='text'], select 
+    
+    {
+    
+    font: 17px Calibri;
+    
+    text-align: center;
+    
+    border: solid 1px #CCC;
+    
+    width: auto;
+    
+    padding: 10px 10px;
+    
+    }
+    
+    
+    
+    
+    
+    body {font-family: Arial, Helvetica, sans-serif;}
+    
+    * {box-sizing: border-box}
+    
+    /* Full-width input fields */
+    
+    input[type=text], input[type=password] {
+    
+    width: 100%;
+    
+    padding: 15px;
+    
+    margin: 5px 0 22px 0;
+    
+    display: inline-block;
+    
+    border: none;
+    
+    background: #f1f1f1  ;
+    
+    }
+    
+    
+    /* Add a background color when the inputs get focus */
+    
+    input[type=text]:focus, input[type=password]:focus {
+    
+    background-color: #ddd;
+    
+    outline: none;
+    
+    }
+    
+    
+    /* Set a style for all buttons */
+    
+    #sort {
+    
+    background-color: #4CAF50  ;
+    
+    color: white;
+    
+    padding: 14px 20px;
+    
+    margin: 8px 0;
+    
+    border: none;
+    
+    cursor: pointer;
+    
+    width: 100%;
+    
+    opacity: 0.9;
+    
+    }
+    
+    
+    button:hover {
+    
+    opacity:1;
+    
+    }
+    
+    
+    
+    .cancelbtn {
+    
+    padding: 14px 20px;
+    
+    background-color: #f44336  ;
+    
+    }
+    
+    
+    
+    
+    .cancelbtn {
+    
+    float: left;
+    
+    width: 20%;
+    
+    }
+    
+    
+    
+    .signupbtn {
+    
+    float: right;
+    
+    width: 20%;
+    
+    }
+    
+    
+    /* Add padding to container elements */
+    
+    .container {
+    
+    padding: 16px;
+    
+    }
+    
+    
+    /* The Modal (background) */
+    
+    .modal {
+    
+    display: none; /* Hidden by default */
+    
+    position: fixed; /* Stay in place */
+    
+    z-index: 1; /* Sit on top */
+    
+    left: 0;
+    
+    top: 0;
+    
+    width: 100%; /* Full width */
+    
+    height: 100%; /* Full height */
+    
+    overflow: auto; /* Enable scroll if needed */
+    
+    background-color: #474e5d  ;
+    
+    padding-top: 50px;
+    
+    }
+    
+    
+    /* Modal Content/Box */
+    
+    .modal-content {
+    
+    background-color: #fefefe  ;
+    
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    
+    border: 1px solid #888;
+    
+    width: 80%; /* Could be more or less, depending on screen size */
+    
+    }
+    
+    
+    /* Style the horizontal ruler */
+    
+    hr {
+    
+    border: 1px solid #f1f1f1  ;
+    
+    margin-bottom: 25px;
+    
+    }
+    
+    
+    /* The Close Button (x) */
+    
+    .close {
+    
+    position: absolute;
+    
+    right: 35px;
+    
+    top: 15px;
+    
+    font-size: 40px;
+    
+    font-weight: bold;
+    
+    color: #f1f1f1  ;
+    
+    }
+    
+    
+    .close:hover,
+    
+    .close:focus {
+    
+    color: #f44336  ;
+    
+    cursor: pointer;
+    
+    }
+    
+    
+    /* Clear floats */
+    
+    .clearfix::after {
+    
+    content: "";
+    
+    clear: both;
+    
+    display: table;
+    
+    }
+    
+    
+    
+    
+    #cmd{
+    
+    color: white;
+    
+    background-color:brown;
+    
+    }
+    
+    #cmd2{
+    
+    color: white;
+    
+    background-color:brown;
+    
+    }
+    
+    
+    
+    
+    p {
+    
+    border: 2px solid black;
+    
+    outline: #4CAF50   solid 10px;
+    
+    margin: auto; 
+    
+    padding: 20px;
+    
+    text-align: center;
+    
+    font-size: 50px;
+    
+    }
+    
+    
+    
+    
+    
+    
+    
+    .center {
+    
+    display: block;
+    
+    margin-left: auto;
+    
+    margin-right: auto;
+    
+    width: 50%;
+    
+    }
+    
+    
+    
+    body {font-family: Arial, Helvetica, sans-serif;}
+    
+    
+    /* Full-width input fields */
+    
+    input[type=text], input[type=password] {
+    
+    width: 100%;
+    
+    padding: 12px 20px;
+    
+    margin: 8px 0;
+    
+    display: inline-block;
+    
+    border: 1px solid #ccc;
+    
+    box-sizing: border-box;
+    
+    }
+    
+    
+    
+    
+    /* Center the image and position the close button */
+    
+    .imgcontainer {
+    
+    text-align: center;
+    
+    margin: 24px 0 12px 0;
+    
+    position: relative;
+    
+    }
+    
+    
+    img.avatar {
+    
+    width: 40%;
+    
+    border-radius: 50%;
+    
+    }
+    
+    
+    .container {
+    
+    padding: 16px;
+    
+    }
+    
+    
+    span.psw {
+    
+    float: right;
+    
+    padding-top: 16px;
+    
+    }
+    
+    
+    
+    /* The Close Button (x) */
+    
+    .close {
+    
+    position: absolute;
+    
+    right: 25px;
+    
+    top: 0;
+    
+    color: #000;
+    
+    font-size: 35px;
+    
+    font-weight: bold;
+    
+    }
+    
+    
+    .close:hover,
+    
+    .close:focus {
+    
+    color: red;
+    
+    cursor: pointer;
+    
+    }
+    
+    
+    /* Add Zoom Animation */
+    
+    .animate {
+    
+    -webkit-animation: animatezoom 0.6s;
+    
+    animation: animatezoom 0.6s
+    
+    }
+    
+    
+    @-webkit-keyframes animatezoom {
+    
+    from {-webkit-transform: scale(0)} 
+    
+    to {-webkit-transform: scale(1)}
+    
+    }
+    
+    
+    @keyframes animatezoom {
+    
+    from {transform: scale(0)} 
+    
+    to {transform: scale(1)}
+    
+    }
+    
+    
+    
+    
+    
+    h1{
+    
+    background-color: #4CAF50  ;
+    
+    }
+    
+    
+    
+    #deleteAll{
+    
+    background-color:#ED5650;
+    
+    color: white;
+    
+    float:right;
+    
+    
+    }
+    
